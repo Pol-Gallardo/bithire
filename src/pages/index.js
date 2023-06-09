@@ -14,7 +14,7 @@ export default function IndexPage() {
   return (
     <ThemeProvider theme={theme}>
       <Layout>
-        <SEO title="BitHire | El mejor sitio para los talentos y las empresas" />
+        <SEO title="BitHire | El mejor sitio para los talentos" />
         <Banner />
         <TeamSection />
         <OurCustomer />
