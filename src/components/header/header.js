@@ -81,6 +81,8 @@ export default function Header() {
 const styles = {
   headerWrapper: {
     backgroundColor: 'transparent',
+    fontSize: 20,
+    color: "black",
     '.is-sticky': {
       header: {
         backgroundColor: '#fff',

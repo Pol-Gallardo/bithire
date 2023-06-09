@@ -2,31 +2,9 @@
 import { jsx, Box, Container, Heading, Text, Button } from 'theme-ui';
 import { rgba } from 'polished';
 
-import Select from 'components/select';
+
 import bannerBg from 'assets/images/banner-bg.jpg';
 
-const options = [
-  {
-    id: 1,
-    label: 'Brooklyn, New york',
-    value: 'Brooklyn, New york',
-  },
-  {
-    id: 2,
-    label: 'Atlanta, Georgia',
-    value: 'Atlanta, Georgia',
-  },
-  {
-    id: 3,
-    label: 'Minneapolis, Minnesota',
-    value: 'Minneapolis, Minnesota',
-  },
-  {
-    id: 4,
-    label: 'Chicago, Illinois',
-    value: 'Chicago, Illinois',
-  },
-];
 
 export default function Banner() {
   const handleSubmit = (e) => {

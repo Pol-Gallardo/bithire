@@ -33,7 +33,7 @@ export default {
     // heading: 'Bree Serif',
     monospace: 'Menlo, monospace',
   },
-  fontSizes: [12, 14, 16, 20, 24, 32, 48, 64],
+  fontSizes: [12, 14, 24, 16, 24, 32, 48, 64],
   fontWeights: {
     body: 'normal',
     // body: 400,
